@@ -1,0 +1,6 @@
+.animate {
+  transition: all 0.76s ease-in-out;
+}
+body {
+  transition: all 0.76s ease-in-out;
+}
