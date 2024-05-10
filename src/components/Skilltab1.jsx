@@ -30,6 +30,8 @@ export default function Skilltab2() {
         <Box skill="Node.JS"></Box>
         <Box skill="Express.JS"></Box>
         <Box skill="MongoDB"></Box>
+        <Box skill="Bootstrap"></Box>
+        <Box skill="TailwindCSS"></Box>
         <Box skill="Git/Github"></Box>
       </div>
     </div>

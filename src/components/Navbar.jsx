@@ -12,8 +12,10 @@ export default function Navbar() {
   return (
     <div
       className={`${
-        selector ? "text-white bg-slate-950" : "text-black: bg-[#6ec0ec]"
-      } w-full fixed top-0 h-[8%] sm:10px border-solid border-2 border-gray-800 border-l-0 border-r-0 p-4 sm:text-2xl text-xs z-50 animate `}
+        selector
+          ? "text-white bg-slate-950  border-2 border-solid border-slate-900"
+          : "text-black: bg-[#5BA0FF] border-2 border-solid border-[#3c7bd4]"
+      } w-full fixed top-0 h-[8%] sm:10px   border-t-0 border-l-0 border-r-0 p-4 sm:text-2xl text-xs z-50 animate `}
     >
       <ul className="float-right sm:text-lg text-[10px]">
         <li className="inline-block sm:mx-10 mr-3 relative bottom-3">

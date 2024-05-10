@@ -40,7 +40,7 @@ export default function App() {
   const setmode = () => {
     selector
       ? (document.body.style.backgroundColor = "black")
-      : (document.body.style.backgroundColor = "#C9E9FA");
+      : (document.body.style.backgroundColor = "#8EBDFF");
   };
   window.addEventListener("scroll", () => {
     const a = document.querySelectorAll(".animate");
