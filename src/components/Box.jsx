@@ -14,7 +14,7 @@ export default function Box(props) {
             ? "bg-slate-950 text-white  border-red-950"
             : "bg-[#72abff] text-black  border-blue-500"
         }  my-2 mx-3 rounded-lg p-4 h-[100%] border-[1.5px]  border-solid  animate opacity-0
-      boxes z-30`}
+      boxes z-30 `}
       >
         <span className="animate opacity-0 ">
           <StarSvg></StarSvg>

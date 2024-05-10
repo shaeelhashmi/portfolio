@@ -10,7 +10,7 @@ export default function Skilltab2() {
     <div
       className={`${
         selector ? "text-white" : "text-black"
-      } border-solid border-t-2 border-red-300 md:h-screen w-full  h-[1450px]`}
+      } border-solid border-t-2 border-red-300 min-[400px]:h-screen w-full  min-h-[850px] h-[1450px]`}
       id="skills"
     >
       <div
