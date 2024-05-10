@@ -13,7 +13,7 @@ export default function StarSvg() {
         height="30"
         viewBox="0 0 26 26"
         fill="none"
-        class="inline-block"
+        className="inline-block"
       >
         <path
           d="M13 0L15.9187 11.0557H25.3637L17.7225 17.8885L20.6412 28.9443L13 22.1115L5.35879 28.9443L8.27747 17.8885L0.636266 11.0557H10.0813L13 0Z"
