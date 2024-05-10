@@ -11,8 +11,8 @@ export default function Project() {
   return (
     <div
       className={`${
-        selector ? "text-white" : "text-black"
-      } border-solid border-t-2 border-red-300 sm:h-screen w-full h-[1230px]`}
+        selector ? "text-white border-blue-600" : "text-black border-red-300"
+      } border-solid border-t-2 sm:h-screen w-full h-[1230px] border-blue-600`}
       id="projects"
     >
       <div className="text-4xl  text-center my-12  mt-28 animate">
