@@ -1,3 +1,7 @@
+# Summary
+This is my portfolio website displaying my skills and my projects built using React.js and Tailwind CSS 
+# Project hosting
+https://shaeelhashmi.github.io/portfolio/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
