@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import images from "../assets/images.jpeg";
 import images1 from "../assets/pencil.jpeg";
+import SpaceImg from "../assets/SpaceInvaders.jpg";
 import ProjectCard from "./ProjectCard";
 export default function Project() {
   const selector = useSelector((state) => {
@@ -12,13 +13,13 @@ export default function Project() {
     <div
       className={`${
         selector ? "text-white border-blue-600" : "text-black "
-      } border-solid border-t-2 sm:h-screen w-full h-[1230px] border-blue-600`}
+      } border-solid border-t-2  w-full h-auto border-blue-600 sm:mb-56 mb-7`}
       id="projects"
     >
       <div className="text-4xl  text-center my-12  mt-28 animate">
         Explore my projects
       </div>
-      <div className="grid sm:grid-cols-2 gride-col-1  h-full w-full ">
+      <div className="grid sm:grid-cols-2 grid-col-1  h-full w-full p-9 gap-y-24 gap-x-8">
         <ProjectCard
           description="This is a time table management system that I created for my university
         semester project. It is a web-application in which I used HTML,CSS,JS for frontend
@@ -33,6 +34,12 @@ export default function Project() {
           link="https://github.com/shaeelhashmi/React-application"
           images={images1}
           title="Paragraph Analyser"
+        ></ProjectCard>
+        <ProjectCard
+          description="This is a spaceshooter game that has a user spaceship that can move in all directions and shoot bullets. The game has a score system that increases as the user shoots the asteroids, it also features 4 boss levels each with its own added difficulty. The game is created using SFML library in C++."
+          link="https://github.com/shaeelhashmi/SpaceInvaders"
+          images={SpaceImg}
+          title="Space Shooter Game"
         ></ProjectCard>
       </div>
     </div>

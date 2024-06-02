@@ -10,7 +10,7 @@ export default function Skilltab2() {
     <div
       className={`${
         selector ? "text-white" : "text-black"
-      } border-solid border-t-2 border-blue-600 min-[400px]:h-screen w-full  min-h-[850px] h-[1450px]`}
+      } border-solid border-t-2 border-blue-600  w-full  h-auto sm:mb-56 mb-7`}
       id="skills"
     >
       <div
@@ -33,6 +33,7 @@ export default function Skilltab2() {
         <Box skill="Bootstrap"></Box>
         <Box skill="TailwindCSS"></Box>
         <Box skill="Git/Github"></Box>
+        <Box skill="SFML"></Box>
       </div>
     </div>
   );

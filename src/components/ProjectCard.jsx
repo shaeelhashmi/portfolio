@@ -9,10 +9,10 @@ export default function ProjectCard(props) {
     <div
       className={`" ml-auto  mr-auto  border-2 border-solid ${
         selector ? "border-[#0046B4]" : "border-[#4a99ff]"
-      } sm:h-[350px]  rounded-md  sm:w-[350px]        [@media(max-width:320px)]:w-[290px] [@media(max-width:320px)]:h-[290px] w-[250px] h-[250px] animate opacity-0"`}
+      } sm:h-[350px]  rounded-md  sm:w-[350px]        [@media(max-width:320px)]:w-[290px] [@media(max-width:320px)]:h-[290px] w-[250px] h-[250px] animate opacity-0 "`}
     >
       <div className="w-full h-1/2 animate opacity-0">
-        <img src={props.images} alt="" className="w-full h-full object-cover" />
+        <img src={props.images} alt="" className="w-full h-full object-fill" />
       </div>
       <div
         className={`md:text-lg [@media(max-width:320px)]:text-sm  ${
@@ -37,7 +37,7 @@ export default function ProjectCard(props) {
           } w-full h-[13%] m-0 p-0 
         animate opacity-0"`}
         >
-          View source code
+          View Project
         </button>
       </a>
     </div>
